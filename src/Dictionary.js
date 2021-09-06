@@ -14,12 +14,11 @@ function search(event) {
     event.preventDefault();
     
     let apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en/${keyword}`;
-    console.log(apiUrl);
+    //console.log(apiUrl);
     axios.get(apiUrl).then(handleResponse); 
 }
 
 function handleKeywordChange(event) {
-    console.log(event.target.value);
     setKeyword(event.target.value);
 
 }
