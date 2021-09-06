@@ -1,13 +1,87 @@
 .App {
   text-align: center;
   font-family: 'Courier New', Courier, monospace;
+  background: linear-gradient(45deg, #ccfffc, #ffcccf);
+}
+
+.Dictionary h1 {
+  font-size: 20px;
+  font-weight: bold;
+}
+.Dictionary form input {
+  border-radius: 5px;
+  width: 90%;
+  margin: 20px;
+  padding: 5px 8px;
+  color: rgb(0, 0, 0, 0.7);
+}
+
+.Dictionary section {
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 5px;
+  width: 80%;
+  margin: 15px auto;
+  padding: 30px;
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1);  
+}
+
+.Results h2 {
+ font-size: 30px;
+ font-weight: bold;
+ line-height: 1.5;
+}
+
+.Phonetic {
+  margin: 15px 0;
+}
+.Phonetic a {
+  border: 1px solid rgba(0,0,0, 0.6);
+  text-decoration: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+  transition: all 200ms ease-in-out;
+  margin-right: 8px;
+  color: #000;
+}
+.Phonetic a:hover {
+  background-color: #ffcccf;
+}
+.Phonetic .text {
+  font-weight: bold;
+  color: rgb(0, 0, 0, 0.6);
+}
+
+
+.Meaning h3 {
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 1.5;
+}
+.Meaning .definition {
+  font-size: 18px;
+}
+.Meaning .example {
+  font-style: italic;
+  font-size: 16px;
+  color: rgb(0, 0, 0, 0.5);
+  margin-top: 10px;
+}
+
+.Synonyms {
+  margin: 15px 0 0;
+  padding: 0;
+}
+.Synonyms li {
+  display: inline-block;
+  padding: 15px;
+  font-size: 14px;
 }
 
 
 footer {
   bottom: 0px;
   text-align: center;
-  position: fixed;
+  font-size: 11px;
 }
 
 
