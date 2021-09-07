@@ -1,7 +1,12 @@
 body {
   text-align: center;
-  font-family: 'Courier New', Courier, monospace;
-  background: linear-gradient(45deg, #ccfffc, #ffcccf);
+  font-family: 'Courier New', Courier, monospace; 
+  background: black;
+  background: 
+linear-gradient(
+  45deg, #ccfffc, #ffcccf
+);
+ 
 }
 .App {
   max-width: 1200px;
@@ -39,7 +44,8 @@ body {
   margin: 15px 0;
 }
 .Phonetic a {
-  border: 1px solid rgba(0,0,0, 0.6);
+  border: 1px solid #ffcccf;
+  background-color: #ffcccf;
   text-decoration: none;
   padding: 8px 16px;
   border-radius: 5px;
@@ -48,7 +54,7 @@ body {
   color: #000;
 }
 .Phonetic a:hover {
-  background-color: #ffcccf;
+  background-color: transparent;
 }
 .Phonetic .text {
   font-weight: bold;
@@ -67,7 +73,7 @@ body {
 .Meaning .example {
   font-style: italic;
   font-size: 16px;
-  color: rgb(0, 0, 0, 0.5);
+  color: darkmagenta;
   margin-top: 10px;
 }
 
@@ -78,7 +84,8 @@ body {
 .Synonyms li {
   display: inline-block;
   padding: 15px;
-  font-size: 14px;
+  font-size: 13px;
+  color: #545454;
 }
 
 .Photos img {

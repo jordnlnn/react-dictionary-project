@@ -4,7 +4,7 @@ import Dictionary from './Dictionary';
 export default function App() {
   return (
     <div className="App">
-     <Dictionary defaultKeyword="sunset" />
+     <Dictionary defaultKeyword="nebula" />
     </div>
   );
 }

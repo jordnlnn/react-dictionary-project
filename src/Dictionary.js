@@ -46,7 +46,7 @@ if (loaded) {
     return (
         <div className="Dictionary">
         <section>
-        <h1>What word do you want to look up?</h1>
+        <h1>What word do you want to look up?📚</h1>
         <form onSubmit={handleSubmit}>
             <input type="search" placeholder="Search for a word..." defaultValue={props.defaultKeyword} autoFocus={true} onChange={handleKeywordChange} />
         </form>
